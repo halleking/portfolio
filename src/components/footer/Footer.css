@@ -1,0 +1,11 @@
+.Footer {
+    margin-top: auto;
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 10px;
+    justify-content: center;
+    background-color: rgb(192, 45, 26);
+    color: #ffffff;
+    height: 75px;
+    min-height: 75px;
+  }

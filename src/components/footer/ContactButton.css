@@ -1,0 +1,20 @@
+.button{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 0px;
+    align-self: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.button:hover{
+    background: rgb(160, 160, 160);
+}
+
+.button-icon{
+    color: rgb(0, 0, 0);
+    height: 90%;
+    width: 100%;
+    align-content: center;
+}
