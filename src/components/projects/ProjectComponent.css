@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    align-items: left;
+    padding-block: 20px;
+}
+
+.container img {
+    width: 200px;
+    height: 200px;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+}
+
+.container title {
+    text-align: left;
+}
+
+.container text {
+    text-align: left;
+}

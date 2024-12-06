@@ -4,7 +4,6 @@ import ProjectAccordion from './ProjectAccordion';
 function Projects() {
   return (
     <div>
-        <h3>Projects</h3>
         <ProjectAccordion/>
     </div>
   );

@@ -9,7 +9,10 @@
 }
 
 .button:hover{
-    background: rgb(160, 160, 160);
+    /* background: rgb(160, 160, 160); */
+    .button-icon{
+        color: #3E92CC;
+    }
 }
 
 .button-icon{
@@ -17,4 +20,5 @@
     height: 90%;
     width: 100%;
     align-content: center;
+    padding-top: 2px;
 }
