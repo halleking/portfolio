@@ -1,10 +1,11 @@
 .Header {
     box-sizing: border-box;
     width: 100%;
-    display: flex;
     justify-content: center;
     align-items: baseline;
     background-color: #3E92CC;
     background: linear-gradient(#3E92CC, #ffffff);
     color: #ffffff;
+    height: 75px;
+    min-height: 75px;
   }

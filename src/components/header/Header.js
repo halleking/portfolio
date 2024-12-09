@@ -3,9 +3,9 @@ import './Header.css';
 
 function Header() {
     return (
-        <div className="Header">
-            <h1>Halle King</h1>
-        </div>
+        <section id='home'>
+            <div className="Header"></div>
+        </section>
     );
 }
 

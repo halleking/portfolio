@@ -16,6 +16,16 @@ import PancakesGif from '../../assets/pancakes.gif';
 import MacarenaGif from '../../assets/macarena.gif';
 import HulkGif from '../../assets/hulk.gif';
 
+const PortfolioTags = ["ReactJs", "CSS"];
+const RuledOutTags = ["Unity", "C#", "WebGL", "iOS", "Android"];
+const PenguinRallyTags = ["Unity", "C#", "WebGL", "iOS", "Android"];
+const WhatsMyNameTags = ["Unity", "C#", "WebGL", "iOS", "Android"];
+const FSXProTags = ["Unity", "C#", "Windows", "Mac", "iOS", "Android"];
+const WizTags = ["Unity", "C#", "Windows", "Mac", "WebGL", "Unity Networking"];
+const PancakeTags = ["Maya", "Photorealism", "Fluid Animation"];
+const MacarenaTags = ["Maya", "Character Rigging", "Keyframe Animation"];
+const HulkTags = ["Maya", "Character Rigging", "Wave Animation"];
+
 
 export default function ProjectAccordion() {
   return (
@@ -29,7 +39,7 @@ export default function ProjectAccordion() {
           Web Development
         </AccordionSummary>
         <AccordionDetails>
-          <ProjectComponent title='Portfolio' text="You're here! Check it out!"/>
+          <ProjectComponent title='My Portfolio' tags={PortfolioTags} text="You're here! Thanks for visiting."/>
         </AccordionDetails>
       </Accordion>
       <Accordion>
@@ -41,11 +51,11 @@ export default function ProjectAccordion() {
           Games
         </AccordionSummary>
         <AccordionDetails>
-          <ProjectComponent title='Ruled Out' text="An inductive reasioning brain game." img={RuledOutGif}/>
-          <ProjectComponent title='Penguin Rally' text="A spatial orientation racing game." img={PenguinRallyGif}/>
-          <ProjectComponent title="What's My Name" text="A memory brain game." img={WhatsMyNameGif}/>
-          <ProjectComponent title='FSX Pro' text="A golf fitting and coaching application." img={FsxProGif}/>
-          <ProjectComponent title='Wiz Royale' text="A multiplayer battle royale."/>
+          <ProjectComponent title='Ruled Out' tags={RuledOutTags} text="An inductive reasioning brain game.An inductive reasioning brain game.An inductive reasioning brain game.An inductive reasioning brain game.An inductive reasioning brain game.An inductive reasioning brain game.An inductive reasioning brain game." img={RuledOutGif}/>
+          <ProjectComponent title='Penguin Rally' tags={PenguinRallyTags} text="A spatial orientation racing game." img={PenguinRallyGif}/>
+          <ProjectComponent title="What's My Name?" tags={WhatsMyNameTags} text="A memory brain game." img={WhatsMyNameGif}/>
+          <ProjectComponent title='FSX Pro' tags={FSXProTags} text="A golf fitting and coaching application." img={FsxProGif}/>
+          <ProjectComponent title='Wiz Royale' tags={WizTags} text="A multiplayer battle royale."/>
         </AccordionDetails>
       </Accordion>
       <Accordion>
@@ -57,9 +67,9 @@ export default function ProjectAccordion() {
           3D Modeling and Animation
         </AccordionSummary>
         <AccordionDetails>
-        <ProjectComponent title='Pancakes' text="" img={PancakesGif}/>
-        <ProjectComponent title='The Macarena' text="" img={MacarenaGif}/>
-        <ProjectComponent title='Hulk Smash!' text="" img={HulkGif}/>
+        <ProjectComponent title='Pancakes' tags={PancakeTags} text="" img={PancakesGif}/>
+        <ProjectComponent title='The Macarena' tags={MacarenaTags} text="" img={MacarenaGif}/>
+        <ProjectComponent title='Hulk Smash!' tags={HulkTags} text="" img={HulkGif}/>
         </AccordionDetails>
       </Accordion>
     </div>

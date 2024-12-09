@@ -3,9 +3,11 @@ import ProjectAccordion from './ProjectAccordion';
 
 function Projects() {
   return (
-    <div>
+    <section id='projects'>
+      <div>
         <ProjectAccordion/>
-    </div>
+      </div>
+    </section>
   );
 }
 
