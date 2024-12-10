@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.8d5d1c30.css",
-    "main.js": "/portfolio/static/js/main.1d0997f7.js",
+    "main.css": "/portfolio/static/css/main.b7292016.css",
+    "main.js": "/portfolio/static/js/main.37b6c7f8.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/wiz.gif": "/portfolio/static/media/wiz.9573cc92e68cea6552ae.gif",
     "static/media/penguin-rally.gif": "/portfolio/static/media/penguin-rally.b7c37eb17614e5206303.gif",
     "static/media/pancakes.gif": "/portfolio/static/media/pancakes.f48f91b27b89704353d2.gif",
     "static/media/hulk.gif": "/portfolio/static/media/hulk.bb71dd0128b3a5e8d7ea.gif",
@@ -10,13 +11,15 @@
     "static/media/ruled-out.gif": "/portfolio/static/media/ruled-out.3eb9e87b8a77d21c5b92.gif",
     "static/media/macarena.gif": "/portfolio/static/media/macarena.b84ea40695d3afd1882d.gif",
     "static/media/fsx-pro.gif": "/portfolio/static/media/fsx-pro.acf569c658570d1df13d.gif",
+    "static/media/bg1.png": "/portfolio/static/media/bg1.cfeb932fd9b9ad21fea3.png",
+    "static/media/bg2.png": "/portfolio/static/media/bg2.82da7fe6e9a41a931447.png",
     "index.html": "/portfolio/index.html",
-    "main.8d5d1c30.css.map": "/portfolio/static/css/main.8d5d1c30.css.map",
-    "main.1d0997f7.js.map": "/portfolio/static/js/main.1d0997f7.js.map",
+    "main.b7292016.css.map": "/portfolio/static/css/main.b7292016.css.map",
+    "main.37b6c7f8.js.map": "/portfolio/static/js/main.37b6c7f8.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d5d1c30.css",
-    "static/js/main.1d0997f7.js"
+    "static/css/main.b7292016.css",
+    "static/js/main.37b6c7f8.js"
   ]
 }
