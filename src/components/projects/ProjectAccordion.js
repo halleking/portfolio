@@ -30,11 +30,13 @@ const HulkTags = ["Maya", "Character Rigging", "Wave Animation"];
 export default function ProjectAccordion() {
   return (
     <div>
+      <h3></h3>
       <Accordion>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2-content"
           id="panel2-header"
+          style={{fontSize:20}}
         >
           Web Development
         </AccordionSummary>
@@ -47,6 +49,7 @@ export default function ProjectAccordion() {
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2-content"
           id="panel2-header"
+          style={{fontSize:20}}
         >
           Games
         </AccordionSummary>
@@ -63,6 +66,7 @@ export default function ProjectAccordion() {
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2-content"
           id="panel2-header"
+          style={{fontSize:20}}
         >
           3D Modeling and Animation
         </AccordionSummary>

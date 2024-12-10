@@ -5,7 +5,7 @@ import {ReactTyped} from 'react-typed';
 function Intro() {
     return (
         <div>
-            <h1>Hi, I'm Halle King.</h1>
+            <h1>Hi, I'm Halle King</h1>
             <p>
                 {" "}
                 <ReactTyped

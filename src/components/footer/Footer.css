@@ -4,8 +4,6 @@
     grid-auto-flow: column;
     grid-column-gap: 10px;
     justify-content: center;
-    background-color: #3E92CC;
-    background: linear-gradient(#ffffff, #3E92CC);
     color: #ffffff;
     height: 75px;
     min-height: 75px;
