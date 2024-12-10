@@ -12,6 +12,7 @@ import RuledOutGif from '../../assets/ruled-out.gif';
 import PenguinRallyGif from '../../assets/penguin-rally.gif';
 import WhatsMyNameGif from '../../assets/whats-my-name.gif';
 import FsxProGif from '../../assets/fsx-pro.gif';
+import WizGif from '../../assets/wiz.gif';
 import PancakesGif from '../../assets/pancakes.gif';
 import MacarenaGif from '../../assets/macarena.gif';
 import HulkGif from '../../assets/hulk.gif';
@@ -58,7 +59,7 @@ export default function ProjectAccordion() {
           <ProjectComponent title='Penguin Rally' tags={PenguinRallyTags} text="A fast-paced racing game where players nagivate through a maze to reach the fish at the finish line. The maze rotates, which adds a unique challenge and requires the player to quickly adapt to maintain the correct orientation of their directional inputs. The game features two modes, including timed training trials for honing skills and an exhilharating race mode where the player competes against other penguins." img={PenguinRallyGif}/>
           <ProjectComponent title="What's My Name?" tags={WhatsMyNameTags} text="A memory game crafted to challenge and improve users' long-term memory skills. Players are introduced to AI-generated faces, each with a unique name and personality that mirrors real-world scenarios. The objective is to remember and correctly identify each character by name during subsequent encounters. The game rewards players for quick and accurate recall, with intelligent algorithms accommodating acceptable misspellings and variable typing speeds. A fun and engaging way to sharpen memory while interacting with lifelike personalities!" img={WhatsMyNameGif}/>
           <ProjectComponent title='FSX Pro' tags={FSXProTags} text="A comprehensive golf club fitting and coaching application designed to enhance performance through detailed analysis. The app integrates with a hardware device to collect real-time data on each individual golf shot. It offers a range of customizable views, including 3D visualization, top-down perspectives, tabular data display, and specialized club-focused views. Tailored insights allow users to improve their golf game and optimize their equipment for peak performance." img={FsxProGif}/>
-          <ProjectComponent title='Wiz Royale' tags={WizTags} text="Players compete in an action-packed, small-scale multiplayer battle royale. Dynamic maps offer pickups that boost health or enhance damage, and provide strategic advantages. Spells can be cast to eliminate opponents, and leveling up unlocks the choice of attack, defense, or utility skills for customizable strategies. Only the last wizard standing wins!"/>
+          <ProjectComponent title='Wiz Royale' tags={WizTags} text="Players compete in an action-packed, small-scale multiplayer battle royale. Dynamic maps offer pickups that boost health or enhance damage, and provide strategic advantages. Spells can be cast to eliminate opponents, and leveling up unlocks the choice of attack, defense, or utility skills for customizable strategies. Only the last wizard standing wins!" img={WizGif}/>
         </AccordionDetails>
       </Accordion>
       <Accordion>
