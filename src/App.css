@@ -4,6 +4,9 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
+  background-image: url('./assets/bg1.png');
+  background-size: cover; 
+  background-position: center;
 }
 
 .intro,
@@ -34,4 +37,14 @@ body {
   height: 90vh;
   display: flexbox;
   flex-direction: column;
+  height: calc(100% - 200px);
 }
+
+.footer-container {
+  position: relative;
+  height: 200px;
+  background-image: url('./assets/bg2.png');
+  background-size: cover;
+  background-position: top; 
+}
+

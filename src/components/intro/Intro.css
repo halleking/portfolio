@@ -1,0 +1,73 @@
+    .header {
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+    padding-top: 150px;
+    padding-left: 100px;
+  }
+
+ #title {
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 100px;
+  }
+
+#title:after {
+    content: '';  
+    animation: spin 10s linear infinite 1s;
+  }
+  
+  @keyframes spin {
+    0% {
+      content: 'Software Engineer';
+      color: rgba(212, 237, 244, 0);
+    }
+    5% {
+        content: 'Software Engineer';
+        color: rgba(212, 237, 244, 1);
+    }
+    20% {
+        content: 'Software Engineer';
+        color: rgba(212, 237, 244, 0);
+    }
+    25% {
+        content: 'Game Engineer';
+        color: rgba(212, 237, 244, 0);
+    }
+    30% {
+        content: 'Game Engineer';
+        color: rgba(212, 237, 244, 1);
+    }
+    45% {
+        content: 'Game Engineer';
+        color: rgba(212, 237, 244, 0);
+    }
+    50% {
+        content: 'Game Developer';
+        color: rgba(212, 237, 244, 0);
+    }
+    55% {
+        content: 'Game Developer';
+        color: rgba(212, 237, 244, 1);
+    }
+    70% {
+        content: 'Game Developer';
+        color: rgba(212, 237, 244, 0);
+    }
+    75% {
+        content: 'Game Designer';
+        color: rgba(212, 237, 244, 0);
+    }
+    80% {
+        content: 'Game Designer';
+        color: rgba(212, 237, 244, 1);
+    }
+    95% {
+        content: 'Game Designer';
+        color: rgba(212, 237, 244, 0);
+    }
+    100% {
+        content: 'Software Engineer';
+        color: rgba(212, 237, 244, 0);
+    }
+  }

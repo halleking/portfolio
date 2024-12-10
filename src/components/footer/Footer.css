@@ -1,5 +1,4 @@
 .Footer {
-    margin-top: auto;
     display: grid;
     grid-auto-flow: column;
     grid-column-gap: 10px;
@@ -7,4 +6,8 @@
     color: #ffffff;
     height: 75px;
     min-height: 75px;
-  }
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+}

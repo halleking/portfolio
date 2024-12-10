@@ -14,13 +14,13 @@ function App() {
       <div id='top'>
         <div className='header'><Header/></div>
         <div className='intro'><Intro/></div>
-        <Nav/>    
+        {/*<Nav/>*/}    
       </div>
       <div id='bottom'>
         <div className='about'><About/></div>
         <div className='main'><Projects/></div>
-        <div className='footer'><Footer/></div>
       </div>
+      <div className='footer-container'><Footer/></div>
     </div>
   );
 }

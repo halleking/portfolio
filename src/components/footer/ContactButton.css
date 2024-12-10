@@ -5,18 +5,18 @@
     border-radius: 4px;
     border: 0px;
     align-self: center;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
 }
 
 .button:hover{
     /* background: rgb(160, 160, 160); */
     .button-icon{
-        color: #3E92CC;
+        color: #d4edf4;
     }
 }
 
 .button-icon{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     height: 90%;
     width: 100%;
     align-content: center;
