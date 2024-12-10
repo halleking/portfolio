@@ -1,6 +1,5 @@
 import React from 'react';
 import "./ProjectComponent.css";
-import StringList from './StringList';
 
 
 function ProjectComponent(props) {
