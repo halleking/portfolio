@@ -1,15 +1,15 @@
     .header {
     color: white;
-    font-size: 45px;
+    font-size: 6vw;
     font-weight: bold;
-    padding-top: 150px;
-    padding-left: 100px;
+    padding-top: 17vh;
+    padding-left: 7vw;
   }
 
  #title {
-    font-size: 25px;
+    font-size: 3vw;
     font-weight: bold;
-    padding-left: 100px;
+    padding-left: 7vw;
   }
 
 #title:after {
