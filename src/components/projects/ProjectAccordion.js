@@ -7,7 +7,8 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Button from '@mui/material/Button';
 import ProjectComponent from './ProjectComponent';
 
-
+import GemMineGif from '../../assets/gem-mine.gif';
+import SheepHerdGif from '../../assets/herd-sheep.gif';
 import RuledOutGif from '../../assets/ruled-out.gif';
 import PenguinRallyGif from '../../assets/penguin-rally.gif';
 import WhatsMyNameGif from '../../assets/whats-my-name.gif';
@@ -18,6 +19,7 @@ import MacarenaGif from '../../assets/macarena.gif';
 import HulkGif from '../../assets/hulk.gif';
 
 const PortfolioTags = ["ReactJs", "CSS"];
+const PrototypeTags = ["Unity", "C#", "Prototype"];
 const RuledOutTags = ["Unity", "C#", "WebGL", "iOS", "Android"];
 const PenguinRallyTags = ["Unity", "C#", "WebGL", "iOS", "Android"];
 const WhatsMyNameTags = ["Unity", "C#", "WebGL", "iOS", "Android"];
@@ -55,6 +57,8 @@ export default function ProjectAccordion() {
           Games
         </AccordionSummary>
         <AccordionDetails>
+          <ProjectComponent title='Gem Mining' tags={PrototypeTags} text="The objective of the game is to navigate a cart through a mine, strategically collecting gems in the fewest moves possible. Players must carefully plan their route, as certain paths may be blocked and require explosives to clear them. However, using explosives triggers chain reactions, causing rubble to fall on adjacent nodes, potentially creating new blockages. This adds an exciting layer of challenge and strategy, making each move a crucial decision. The gameplay invokes a satisfying blend of planning, problem-solving, and adaptability." img={GemMineGif}/>
+          <ProjectComponent title='Sheep Herding' tags={PrototypeTags} text="Players take control of a German Shepherd tasked with herding sheep around the farm. The goal is to guide all the sheep onto their designated patches of grass. The twist? When the shepherd approaches, nearby sheep instinctively turn to face away from it. Clicking on the shepherd to prompts the shepherd to bark, causing the sheep to dash away in the direction they’re facing. Strategic thinking is essential, as careless positioning may leave sheep stuck in tricky spots, making it harder to achieve the objective." img={SheepHerdGif}/>
           <ProjectComponent title='Ruled Out' tags={RuledOutTags} text="Players are presented with a row of three unique cards and must identify the card that follows a secret rule. The rules are based on card properties, such as shape, color, or quantity, and players use their inductive reasoning to make informed selections. The trial concludes once the player has correctly chosen enough cards to demonstrate an understanding of the rule, at which point the rule is revealed. The game is designed to be an engaging way to challenge inductive reasoning and problem-solving skills." img={RuledOutGif}/>
           <ProjectComponent title='Penguin Rally' tags={PenguinRallyTags} text="A fast-paced racing game where players nagivate through a maze to reach the fish at the finish line. The maze rotates, which adds a unique challenge and requires the player to quickly adapt to maintain the correct orientation of their directional inputs. The game features two modes, including timed training trials for honing skills and an exhilharating race mode where the player competes against other penguins." img={PenguinRallyGif}/>
           <ProjectComponent title="What's My Name?" tags={WhatsMyNameTags} text="A memory game crafted to challenge and improve users' long-term memory skills. Players are introduced to AI-generated faces, each with a unique name and personality that mirrors real-world scenarios. The objective is to remember and correctly identify each character by name during subsequent encounters. The game rewards players for quick and accurate recall, with intelligent algorithms accommodating acceptable misspellings and variable typing speeds. A fun and engaging way to sharpen memory while interacting with lifelike personalities!" img={WhatsMyNameGif}/>
