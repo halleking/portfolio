@@ -6,6 +6,7 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Button from '@mui/material/Button';
 import ProjectComponent from './ProjectComponent';
+import Sudoku from './UnityComponent';
 
 import GemMineGif from '../../assets/gem-mine.gif';
 import SheepHerdGif from '../../assets/herd-sheep.gif';
@@ -45,6 +46,19 @@ export default function ProjectAccordion() {
         </AccordionSummary>
         <AccordionDetails>
           <ProjectComponent title='My Portfolio' tags={PortfolioTags} text="You're here! Thanks for visiting."/>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel2-content"
+          id="panel2-header"
+          style={{fontSize:20}}
+        >
+          Puzzles
+        </AccordionSummary>
+        <AccordionDetails>
+          <Sudoku/>
         </AccordionDetails>
       </Accordion>
       <Accordion>
