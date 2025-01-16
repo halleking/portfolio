@@ -4,10 +4,10 @@ import { Unity, useUnityContext } from "react-unity-webgl";
 
 function Sudoku() {
   const { unityProvider } = useUnityContext({
-    loaderUrl: "portfolio/build/sudoku.loader.js",
-    dataUrl:  "portfolio/build/sudoku.data",
-    frameworkUrl:  "portfolio/build/sudoku.framework.js",
-    codeUrl:  "portfolio/build/sudoku.wasm",
+    loaderUrl: "/portfolio/build/sudoku.loader.js",
+    dataUrl:  "/portfolio/build/sudoku.data",
+    frameworkUrl:  "/portfolio/build/sudoku.framework.js",
+    codeUrl:  "/portfolio/build/sudoku.wasm",
   });
 
   return <Fragment>
