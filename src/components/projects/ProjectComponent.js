@@ -1,6 +1,6 @@
 import React from 'react';
 import "./ProjectComponent.css";
-
+import { FaLongArrowAltRight } from "react-icons/fa";
 
 function ProjectComponent(props) {
   return (
@@ -14,6 +14,12 @@ function ProjectComponent(props) {
             ))}
           </div>
           <p className='description'>{props.text}</p>
+          <div className='link'>
+            {props.linkToDemo && (<a href={props.linkToDemo} target="blank"><FaLongArrowAltRight/> Play</a>)}
+          </div>
+          <div className='link'>
+            {props.linkToRepo && (<a href={props.linkToRepo} target="blank"><FaLongArrowAltRight/> GitHub</a>)}
+          </div>
         </div>
     </div>
   );
