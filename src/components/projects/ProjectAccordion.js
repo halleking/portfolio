@@ -48,7 +48,7 @@ export default function ProjectAccordion() {
           <ProjectComponent title='My Portfolio' tags={PortfolioTags} text="You're here! Thanks for visiting."/>
         </AccordionDetails>
       </Accordion>
-      <Accordion>
+      {/* <Accordion>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2-content"
@@ -60,7 +60,7 @@ export default function ProjectAccordion() {
         <AccordionDetails>
           <Sudoku/>
         </AccordionDetails>
-      </Accordion>
+      </Accordion> */}
       <Accordion>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
