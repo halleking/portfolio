@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.1b6f02fd.css",
-    "main.js": "/portfolio/static/js/main.291a4eac.js",
+    "main.js": "/portfolio/static/js/main.ff09e882.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/wiz.gif": "/portfolio/static/media/wiz.9573cc92e68cea6552ae.gif",
     "static/media/penguin-rally.gif": "/portfolio/static/media/penguin-rally.b7c37eb17614e5206303.gif",
@@ -10,6 +10,7 @@
     "static/media/whats-my-name.gif": "/portfolio/static/media/whats-my-name.266e7e8db90abf8513d1.gif",
     "static/media/ruled-out.gif": "/portfolio/static/media/ruled-out.3eb9e87b8a77d21c5b92.gif",
     "static/media/macarena.gif": "/portfolio/static/media/macarena.b84ea40695d3afd1882d.gif",
+    "static/media/daisy-doodles.gif": "/portfolio/static/media/daisy-doodles.b6f6db2d9c88d9212f15.gif",
     "static/media/gem-mine.gif": "/portfolio/static/media/gem-mine.3239c1d54db52f759819.gif",
     "static/media/herd-sheep.gif": "/portfolio/static/media/herd-sheep.145674294abaddfb80f2.gif",
     "static/media/fsx-pro.gif": "/portfolio/static/media/fsx-pro.acf569c658570d1df13d.gif",
@@ -18,11 +19,11 @@
     "static/media/bg2.png": "/portfolio/static/media/bg2.82da7fe6e9a41a931447.png",
     "index.html": "/portfolio/index.html",
     "main.1b6f02fd.css.map": "/portfolio/static/css/main.1b6f02fd.css.map",
-    "main.291a4eac.js.map": "/portfolio/static/js/main.291a4eac.js.map",
+    "main.ff09e882.js.map": "/portfolio/static/js/main.ff09e882.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1b6f02fd.css",
-    "static/js/main.291a4eac.js"
+    "static/js/main.ff09e882.js"
   ]
 }
