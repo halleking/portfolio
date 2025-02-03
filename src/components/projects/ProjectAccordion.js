@@ -22,6 +22,7 @@ import MacarenaGif from '../../assets/macarena.gif';
 import HulkGif from '../../assets/hulk.gif';
 
 const PortfolioTags = ["ReactJs", "CSS"];
+const PlannerTags = ["Flutter", "Dart","Firebase", "In Progress"];
 const DaisyTags = ["Unity", "C#", "In Progess"];
 const SudokuTags = ["Unity", "C#", "WebGL"];
 const PrototypeTags = ["Unity", "C#", "Prototype"];
@@ -49,7 +50,8 @@ export default function ProjectAccordion() {
           Web Development
         </AccordionSummary>
         <AccordionDetails>
-          <ProjectComponent title='My Portfolio' tags={PortfolioTags} text="You're here! Thanks for visiting."/>
+          <ProjectComponent title='My Portfolio' tags={PortfolioTags} text="You're here! Thanks for visiting." linkToRepo="https://github.com/halleking/portfolio"/>
+          <ProjectComponent title='Digital Planner' tags={PlannerTags} text="Coming soon! I'm currently developing an all-in-one planner application designed to boost productivity and reinforce positive daily habits. Set weekly goals and utilize the calendar, lists, and notes features to organize and track your successess." linkToRepo="https://github.com/halleking/assistant"/>
         </AccordionDetails>
       </Accordion>
       {/* <Accordion>
@@ -75,7 +77,7 @@ export default function ProjectAccordion() {
           Games
         </AccordionSummary>
         <AccordionDetails>
-          <ProjectComponent title='Daisy Doodles' tags={DaisyTags} text="A cute garden-themed game to practice drawing skills, designed with my 3-year-old niece in mind. Preferred gameplay is on a tablet, where you would use your finger to trace the presented shapes following the path and planting flower seeds along the way. A fun way for children to start becoming more familiar with basic writing concepts, counting, the alphabet, and more!" /*linkToDemo="https://halleking.github.io/Sudoku"*/ linkToRepo="https://github.com/halleking/ShapeTrace" img={DaisyDoodlesGif} />
+          <ProjectComponent title='Daisy Doodles' tags={DaisyTags} text="A cute garden-themed game to practice drawing skills, designed with my 3-year-old niece in mind. Preferred gameplay is on a tablet, where you would use your finger to trace the presented shapes following the path and planting flower seeds along the way. A fun way for children to start becoming more familiar with basic writing concepts, counting, the alphabet, and more!" linkToRepo="https://github.com/halleking/ShapeTrace" img={DaisyDoodlesGif} />
           <ProjectComponent title='Sudoku Puzzle' tags={SudokuTags} text="A simple Sudoku puzzle game with three levels of difficulty to choose from. Increased difficulty corresponds to an increased number of empty cells to fill at the start of the puzzle. I completed this project in one day (~8hrs)." linkToDemo="https://halleking.github.io/Sudoku" linkToRepo="https://github.com/halleking/Sudoku.git" img={SudokuPng} />
           <ProjectComponent title='Gem Mining' tags={PrototypeTags} text="The objective of the game is to navigate a cart through a mine, strategically collecting gems in the fewest moves possible. Players must carefully plan their route, as certain paths may be blocked and require explosives to clear them. However, using explosives triggers chain reactions, causing rubble to fall on adjacent nodes, potentially creating new blockages. This adds an exciting layer of challenge and strategy, making each move a crucial decision. The gameplay invokes a satisfying blend of planning, problem-solving, and adaptability." img={GemMineGif}/>
           <ProjectComponent title='Sheep Herding' tags={PrototypeTags} text="Players take control of a German Shepherd tasked with herding sheep around the farm. The goal is to guide all the sheep onto their designated patches of grass. The twist? When the shepherd approaches, nearby sheep instinctively turn to face away from it. Clicking on the shepherd to prompts the shepherd to bark, causing the sheep to dash away in the direction they’re facing. Strategic thinking is essential, as careless positioning may leave sheep stuck in tricky spots, making it harder to achieve the objective." img={SheepHerdGif}/>
