@@ -51,7 +51,6 @@ export default function ProjectAccordion() {
         </AccordionSummary>
         <AccordionDetails>
           <ProjectComponent title='My Portfolio' tags={PortfolioTags} text="You're here! Thanks for visiting." linkToRepo="https://github.com/halleking/portfolio"/>
-          <ProjectComponent title='Digital Planner' tags={PlannerTags} text="Coming soon! I'm currently developing an all-in-one planner application designed to boost productivity and reinforce positive daily habits. Set weekly goals and utilize the calendar, lists, and notes features to organize and track your successess." linkToRepo="https://github.com/halleking/assistant"/>
         </AccordionDetails>
       </Accordion>
       {/* <Accordion>
@@ -74,6 +73,20 @@ export default function ProjectAccordion() {
           id="panel2-header"
           style={{fontSize:20}}
         >
+          Applications
+        </AccordionSummary>
+        <AccordionDetails>
+          <ProjectComponent title='Digital Planner' tags={PlannerTags} text="Coming soon! I'm currently developing an all-in-one planner application designed to boost productivity and reinforce positive daily habits. Set weekly goals and utilize the calendar, lists, and notes features to organize and track your successess." linkToRepo="https://github.com/halleking/assistant"/>
+          <ProjectComponent title='FSX Pro' tags={FSXProTags} text="A comprehensive golf club fitting and coaching application designed to enhance performance through detailed analysis. The app integrates with a hardware device to collect real-time data on each individual golf shot. It offers a range of customizable views, including 3D visualization, top-down perspectives, tabular data display, and specialized club-focused views. Tailored insights allow users to improve their golf game and optimize their equipment for peak performance." img={FsxProGif}/>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel2-content"
+          id="panel2-header"
+          style={{fontSize:20}}
+        >
           Games
         </AccordionSummary>
         <AccordionDetails>
@@ -84,7 +97,6 @@ export default function ProjectAccordion() {
           <ProjectComponent title='Ruled Out' tags={RuledOutTags} text="Players are presented with a row of three unique cards and must identify the card that follows a secret rule. The rules are based on card properties, such as shape, color, or quantity, and players use their inductive reasoning to make informed selections. The trial concludes once the player has correctly chosen enough cards to demonstrate an understanding of the rule, at which point the rule is revealed. The game is designed to be an engaging way to challenge inductive reasoning and problem-solving skills." img={RuledOutGif}/>
           <ProjectComponent title='Penguin Rally' tags={PenguinRallyTags} text="A fast-paced racing game where players nagivate through a maze to reach the fish at the finish line. The maze rotates, which adds a unique challenge and requires the player to quickly adapt to maintain the correct orientation of their directional inputs. The game features two modes, including timed training trials for honing skills and an exhilharating race mode where the player competes against other penguins." img={PenguinRallyGif}/>
           <ProjectComponent title="What's My Name?" tags={WhatsMyNameTags} text="A memory game crafted to challenge and improve users' long-term memory skills. Players are introduced to AI-generated faces, each with a unique name and personality that mirrors real-world scenarios. The objective is to remember and correctly identify each character by name during subsequent encounters. The game rewards players for quick and accurate recall, with intelligent algorithms accommodating acceptable misspellings and variable typing speeds. A fun and engaging way to sharpen memory while interacting with lifelike personalities!" img={WhatsMyNameGif}/>
-          <ProjectComponent title='FSX Pro' tags={FSXProTags} text="A comprehensive golf club fitting and coaching application designed to enhance performance through detailed analysis. The app integrates with a hardware device to collect real-time data on each individual golf shot. It offers a range of customizable views, including 3D visualization, top-down perspectives, tabular data display, and specialized club-focused views. Tailored insights allow users to improve their golf game and optimize their equipment for peak performance." img={FsxProGif}/>
           <ProjectComponent title='Wiz Royale' tags={WizTags} text="Players compete in an action-packed, small-scale multiplayer battle royale. Dynamic maps offer pickups that boost health or enhance damage, and provide strategic advantages. Spells can be cast to eliminate opponents, and leveling up unlocks the choice of attack, defense, or utility skills for customizable strategies. Only the last wizard standing wins!" img={WizGif}/>
         </AccordionDetails>
       </Accordion>
