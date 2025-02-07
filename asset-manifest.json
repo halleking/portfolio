@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.1b6f02fd.css",
-    "main.js": "/portfolio/static/js/main.2772cabe.js",
+    "main.css": "/portfolio/static/css/main.25c24d34.css",
+    "main.js": "/portfolio/static/js/main.8ead475b.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/wiz.gif": "/portfolio/static/media/wiz.9573cc92e68cea6552ae.gif",
     "static/media/penguin-rally.gif": "/portfolio/static/media/penguin-rally.b7c37eb17614e5206303.gif",
@@ -14,16 +14,16 @@
     "static/media/gem-mine.gif": "/portfolio/static/media/gem-mine.3239c1d54db52f759819.gif",
     "static/media/herd-sheep.gif": "/portfolio/static/media/herd-sheep.145674294abaddfb80f2.gif",
     "static/media/fsx-pro.gif": "/portfolio/static/media/fsx-pro.acf569c658570d1df13d.gif",
+    "static/media/bg1.png": "/portfolio/static/media/bg1.b6f5135b7720262e41b1.png",
     "static/media/sudoku.png": "/portfolio/static/media/sudoku.896caa5a06de219b2583.png",
-    "static/media/bg1.png": "/portfolio/static/media/bg1.cfeb932fd9b9ad21fea3.png",
-    "static/media/bg2.png": "/portfolio/static/media/bg2.82da7fe6e9a41a931447.png",
+    "static/media/bg2.png": "/portfolio/static/media/bg2.d28997b808bec3475341.png",
     "index.html": "/portfolio/index.html",
-    "main.1b6f02fd.css.map": "/portfolio/static/css/main.1b6f02fd.css.map",
-    "main.2772cabe.js.map": "/portfolio/static/js/main.2772cabe.js.map",
+    "main.25c24d34.css.map": "/portfolio/static/css/main.25c24d34.css.map",
+    "main.8ead475b.js.map": "/portfolio/static/js/main.8ead475b.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b6f02fd.css",
-    "static/js/main.2772cabe.js"
+    "static/css/main.25c24d34.css",
+    "static/js/main.8ead475b.js"
   ]
 }
