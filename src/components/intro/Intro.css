@@ -1,15 +1,16 @@
-    .header {
+    .name {
     color: white;
-    font-size: 6vw;
     font-weight: bold;
-    padding-top: 17vh;
-    padding-left: 7vw;
+    font-size: 7vmin;
+    width: 75%;
+    padding-left: 5%;
   }
 
  #title {
-    font-size: 3vw;
     font-weight: bold;
-    padding-left: 7vw;
+    font-size: 3vmin;
+    width: 75%;
+    padding-left: 5%;
   }
 
 #title:after {
