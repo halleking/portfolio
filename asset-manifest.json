@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.25c24d34.css",
-    "main.js": "/portfolio/static/js/main.8ead475b.js",
+    "main.css": "/portfolio/static/css/main.256760ce.css",
+    "main.js": "/portfolio/static/js/main.22ba47ac.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/wiz.gif": "/portfolio/static/media/wiz.9573cc92e68cea6552ae.gif",
+    "static/media/portrait.png": "/portfolio/static/media/portrait.c3199b9b3c85f1cfee25.png",
     "static/media/penguin-rally.gif": "/portfolio/static/media/penguin-rally.b7c37eb17614e5206303.gif",
     "static/media/pancakes.gif": "/portfolio/static/media/pancakes.f48f91b27b89704353d2.gif",
     "static/media/hulk.gif": "/portfolio/static/media/hulk.bb71dd0128b3a5e8d7ea.gif",
@@ -18,12 +19,12 @@
     "static/media/sudoku.png": "/portfolio/static/media/sudoku.896caa5a06de219b2583.png",
     "static/media/bg2.png": "/portfolio/static/media/bg2.d28997b808bec3475341.png",
     "index.html": "/portfolio/index.html",
-    "main.25c24d34.css.map": "/portfolio/static/css/main.25c24d34.css.map",
-    "main.8ead475b.js.map": "/portfolio/static/js/main.8ead475b.js.map",
+    "main.256760ce.css.map": "/portfolio/static/css/main.256760ce.css.map",
+    "main.22ba47ac.js.map": "/portfolio/static/js/main.22ba47ac.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.25c24d34.css",
-    "static/js/main.8ead475b.js"
+    "static/css/main.256760ce.css",
+    "static/js/main.22ba47ac.js"
   ]
 }
