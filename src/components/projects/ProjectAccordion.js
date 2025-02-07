@@ -40,7 +40,7 @@ export default function ProjectAccordion() {
   return (
     <div>
       <h3></h3>
-      <Accordion>
+      <Accordion style={{boxShadow: '1px 2px 5px rgba(0, 0, 0, 0.3)',padding: '5px',backgroundColor: '#fff'}}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2-content"
@@ -66,7 +66,7 @@ export default function ProjectAccordion() {
           <Sudoku/>
         </AccordionDetails>
       </Accordion> */}
-      <Accordion>
+      <Accordion style={{boxShadow: '1px 2px 5px rgba(0, 0, 0, 0.3)',padding: '5px',backgroundColor: '#fff'}}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2-content"
@@ -80,7 +80,7 @@ export default function ProjectAccordion() {
           <ProjectComponent title='FSX Pro' tags={FSXProTags} text="A comprehensive golf club fitting and coaching application designed to enhance performance through detailed analysis. The app integrates with a hardware device to collect real-time data on each individual golf shot. It offers a range of customizable views, including 3D visualization, top-down perspectives, tabular data display, and specialized club-focused views. Tailored insights allow users to improve their golf game and optimize their equipment for peak performance." img={FsxProGif}/>
         </AccordionDetails>
       </Accordion>
-      <Accordion>
+      <Accordion style={{boxShadow: '1px 2px 5px rgba(0, 0, 0, 0.3)',padding: '5px',backgroundColor: '#fff'}}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2-content"
@@ -100,7 +100,7 @@ export default function ProjectAccordion() {
           <ProjectComponent title='Wiz Royale' tags={WizTags} text="Players compete in an action-packed, small-scale multiplayer battle royale. Dynamic maps offer pickups that boost health or enhance damage, and provide strategic advantages. Spells can be cast to eliminate opponents, and leveling up unlocks the choice of attack, defense, or utility skills for customizable strategies. Only the last wizard standing wins!" img={WizGif}/>
         </AccordionDetails>
       </Accordion>
-      <Accordion>
+      <Accordion style={{boxShadow: '1px 2px 5px rgba(0, 0, 0, 0.3)',padding: '5px',backgroundColor: '#fff'}}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2-content"

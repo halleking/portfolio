@@ -1,3 +1,17 @@
+@media (min-aspect-ratio: 16/9) {
+    /* Styles for landscape orientation (wide screens) */
+    .container {
+      flex-direction: row;
+    }
+  }
+  
+  @media (max-aspect-ratio: 1/1) {
+    /* Styles for portrait orientation (tall screens) */
+    .container {
+      flex-direction: column;
+    }
+  }
+
 .container {
     display: flex;
     align-items: left;
@@ -6,10 +20,8 @@
 }
 
 .container img {
-    width: 35%;
-    height: 35%;
-    max-width: 200px;
-    max-height: 200px;
+    width: 200px;
+    height: 200px;
     border-radius: 10px;
     align-self: center;
 }
@@ -22,7 +34,7 @@
     text-align: left;
     font-size: 20px;
     padding-left: 15px;
-    padding-bottom: 0%;
+    padding-bottom: 15px;
     line-height: 1px;
     margin-bottom: 0px;
 }
@@ -49,7 +61,7 @@ a:hover{
 .tag-container{
     padding-left: 10px;
     display: flex;
-    margin-bottom: -25px;
+    flex-wrap: wrap;
 }
 
 .tag{
@@ -58,5 +70,6 @@ a:hover{
     display: block;
     padding: 0.25rem 0.75rem;
     border-radius: 3rem;
-    margin: 15px 2px;
+    margin: 3px 2px;
+    text-align: center;
 }
