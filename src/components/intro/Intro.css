@@ -1,16 +1,31 @@
-    .name {
+.container-div{ 
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%; 
+    justify-content: center;
+}
+
+.portrait {
+    height: 45vmin; 
+    width: 45vmin;  
+    border-radius: 50%;
+    align-self: center;
+}
+
+.name {
     color: white;
     font-weight: bold;
     font-size: 7vmin;
-    width: 75%;
-    padding-left: 5%;
+    align-self: center;
+    text-align: center;
+    margin: 30px;
   }
 
- #title {
+#title {
     font-weight: bold;
     font-size: 3vmin;
-    width: 75%;
-    padding-left: 5%;
+    text-align: center;
   }
 
 #title:after {
